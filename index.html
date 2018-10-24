@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ICG</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Merriweather" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1 class="logo">Illinois Consulting Group</h1>
+            <nav>
+                <h2>Main Naviation</h2>
+                <div id="burger-nav"></div>
+                <ul>
+                    <li><a href="" class = "current">Pricing</a></li>
+                    <li><a href="">Analytics</a></li>
+                    <li><a href="">Energy</a></li>
+                    <li><a href="">Web Apps</a></li>
+                    <li><a href="">Drones & VR</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div id="main-banner">
+        <!-- Change to picture element
+            <img src="images/bgs.jpg" alt="banner">
+         -->
+         <picture>
+            <source srcset="images/bgs.jpg" media="(max-width: 600px">
+            <source srcset="images/bgm.jpg" media="(max-width: 960px">
+            <img srcset="images/bgl.jpg" alt="banner">
+         </picture>
+
+
+    </div>
+
+    <div id="quoter">
+        <blockquote>The only high performance consultancy with straightforward, transparent pricing that builds solutions not only for corporate clients, but for the general public as well.</blockquote>
+    </div>
+
+    <main class="wrapper">
+        <section id="selling-points">
+            <ul>
+                <li>
+                    <img src="images/software.svg" alt="service icon">
+                    <h3>Web Apps</h3>
+                    <p>You can't improve what you don't measure. Have data but don't know how to make use of it? Analysis is the key to unlocking value.</p>
+                </li>
+                <li>
+                    <img src="images/analysis.svg" alt="service icon">
+                    <h3>Analytics</h3>
+                    <p>You can't improve what you don't measure. Have data but don't know how to make use of it? Analysis is the key to unlocking value.</p>
+                </li>
+                <li>
+                    <img src="images/drone.svg" alt="service icon">
+                    <h3>Drones & VR</h3>
+                    <p>You can't improve what you don't measure. Have data but don't know how to make use of it? Analysis is the key to unlocking value.</p>
+                </li>
+                <li>
+                    <img src="images/wind.svg" alt="service icon">
+                    <h3>Energy</h3>
+                    <p>You can't improve what you don't measure. Have data but don't know how to make use of it? Analysis is the key to unlocking value.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="latest-work">
+            <h2>How we do things</h2>
+            <ul>
+                <li>
+                    <img src="images/analytics.jpg" alt="article">
+                    <h3>Unpack Insight</h3>
+                    <p class="tags">Flask, Django or React?</p>
+                    <p>The words are bounced around, but as soon as you got your head around the LAMP stack, the game had changed. Learn what you need to know, for your specific needs.</p>
+                </li>
+                <li>
+                    <img src="images/webApplication.jpg" alt="article">
+                    <h3>Build an Application</h3>
+                    <p class="tags">Flask, Django or React?</p>
+                    <p>The words are bounced around, but as soon as you got your head around the LAMP stack, the game had changed. Learn what you need to know, for your specific needs.</p>
+                </li>
+                <li>
+                    <img src="images/mavic.jpg" alt="article">
+                    <h3>Build an Application</h3>
+                    <p class="tags">Flask, Django or React?</p>
+                    <p>The words are bounced around, but as soon as you got your head around the LAMP stack, the game had changed. Learn what you need to know, for your specific needs.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <div id="quote">
+        <blockquote>With the expertise of large consultancies and the agility of a startup, ICG is a network of talented consultants who link directly with cusomters, taking ownership of projects. The consultants earn more and the clients pay less. Goodbye beauracracy.</blockquote>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <ul>
+                <li>
+                    <h4>Get in Touch</h4>
+                </li>
+                <li>Learn how we can help</li>
+                <li>Gain expert advice on cutting edge technology</li>
+                <li>Get ahead of your competition.</li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>Recent Projects</h4>
+                </li>
+                <li>Capturing Champaign Landscapes</li>
+                <li>Building a scalable application</li>
+                <li>Not sure which drone or VR? Rent from us</li>
+                <li>How keto lifestyle boosts productivity</li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>Articles</h4>
+                </li>
+                <li>Small businesses benefitting from the cloud</li>
+                <li>How to discern fad from useful tool</li>
+                <li>Private Social Networks</li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>About ICG</h4>
+                </li>
+                <li>How we started</li>
+                <li></li>
+                <li>This is the content</li>
+            </ul>
+            <div id="copyright">&copy; 2018 Illinois Consulting Group. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script>
+
+        const navMenu = document.querySelector("header nav ul");
+
+        function openMenu() {
+            navMenu.classList.toggle("open");
+        }
+
+        const burger = document.querySelector("#burger-nav");
+        burger.addEventListener('click', openMenu)
+    </script>
+
+
+</body>
+</html>

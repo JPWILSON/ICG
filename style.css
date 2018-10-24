@@ -1,0 +1,368 @@
+*{
+    font-family: trebuchet MS;
+}
+
+body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+p, li, h1, h2, h4 {
+    color: #4e4e4e;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+.wrapper {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    background: #e5e5e5;
+    padding: 10px 0;
+}
+
+header h1{
+    margin: 0;
+    text-indent: -10000px;
+    background-image: url(images/company.svg);
+    background-size: 70px;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+header nav{
+    float: right;
+}
+
+header:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header nav h2 {
+    line-height: 0;
+    margin: 0;
+    text-indent: -10000px;
+}
+
+header nav li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #4e4e4e;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav li a.current{
+    color: #1abb9c;
+}
+
+#main-banner img{
+    width: 100%;
+}
+
+#main-banner{
+    max-height: 500px;
+    overflow: hidden;
+}
+
+
+#selling-points {
+    margin-top: 30px;
+}
+
+
+
+#selling-points li{
+    float: left;
+    width: 22%;
+    margin: 1.5%;
+    text-align: center;
+    list-style: none;
+    line-height: 1.6em;
+}
+
+#selling-points li img{
+    width: 40%;
+    margin: 5% 30%;
+}
+
+#selling-points:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#latest-work {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 2px solid #4e4e4e;
+}
+
+#latest-work h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#latest-work li{
+    list-style: none;
+    width: 32%;
+    float: left;
+}
+
+#latest-work img{
+    width: 100%;
+}
+
+#latest-work li:nth-child(2){
+    margin: 0 2%;
+}
+
+#latest-work:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#latest-work h3{
+    margin-bottom: 0;
+}
+
+#latest-work p.tags{
+    color:#bbb;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#latest-work p{
+    line-height: 1.6em;
+}
+
+#quoter{
+    width: 70%;
+    padding: 40px 15%;
+    background: url(images/greyquot.svg) no-repeat center 13px;
+    background-color: #efefef;
+    color: #4e4e4e;
+    font-size: 20px;
+    line-height: 1.6em;
+    text-align: center;
+    font-style: italic;
+}
+
+#quote{
+    margin-top: 60px;
+    width: 70%;
+    padding: 40px 15%;
+    background: url(images/greyquot.svg) no-repeat center 13px;
+    background-color: #efefef;
+    color: #4e4e4e;
+    font-size: 20px;
+    line-height: 1.6em;
+    text-align: center;
+    font-style: italic;
+}
+
+
+footer {
+    padding: 30px 0;
+    background: #232323;
+    border-top: 10px solid #151515;
+}
+
+footer ul{
+    list-style: none;
+    float: left;
+    width: 25%;
+}
+
+footer ul li h4 {
+    margin: 0;
+    color: #555;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+footer:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+footer li {
+    color: #aaa;
+    margin: 20px 0;
+    width: 80%;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+#copyright{
+    clear: both;
+    padding-top: 20px;
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    border-top: 3px solid #333;
+    color: #999;
+    font-size: 14px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 960px){
+    #selling-points li{
+        width:40%;
+        margin: 2% 5%;
+    }
+
+    footer ul{
+        width: 50%;
+    }
+
+    footer ul:nth-child(odd){
+        clear:both;
+    }
+
+    #quote, #quoter {
+        width: 90%;
+        padding: 40px 5%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:768px){
+    header nav{
+        float:none;
+    }
+
+    header nav li{
+        margin-left:0;
+        width: 16.66%;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    header h1.logo{
+        float:none;
+        margin: 0 auto 10px;
+    }
+
+    #quote, #quoter {
+        font-size: 16px;
+    }
+
+    #latest-work h2{
+        text-align:center;
+    }
+
+    #latest-work ul li{
+        width: 70%;
+        margin: 30px 15% !important;
+        float:none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header nav li{
+        font-size: 11px;
+    }
+
+}
+@media screen and (max-width: 480px){
+    header h1{
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+    #selling-points li{
+        width: 80%;
+        padding: 0 10%;
+        margin: 20px 0;
+    }
+
+    #selling-points li img{
+        width: 30%;
+    }
+
+    #latest-work li{
+        width:80%;
+        margin:30px 10% !important;
+    }
+
+    #quote, #quoter {
+        font-size: 14px;
+        font-weight:bold;
+    }
+
+    footer ul{
+        width: 100%;
+        float:none;
+        border-top: 2px solid #333;
+    }
+
+    header nav li{
+        float:none;
+        width:100%;
+        margin:0;
+    }
+
+    header nav{
+        background:#555;
+    }
+
+    header .wrapper{
+        padding: 0;
+        width:100%;
+    }
+
+    header{
+        padding-bottom: 0;
+    }
+
+    header nav li a{
+        text-align: center;
+        display:block;
+        padding: 10px;
+        font-size: 16px;
+        color:#999;
+        border-top:2px solid #4f4f4f;
+    }
+
+    #burger-nav{
+        width: 100%;
+        height: 40px;
+        background:url(images/brgr.svg) no-repeat 98% center;
+        background-size: 25px;
+    }
+
+    header nav ul{
+        height: 0;
+        overflow: hidden;
+    }
+
+    header nav ul.open{
+        height: auto;
+    }
+
+
+
+}
+
