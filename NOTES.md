@@ -31,6 +31,7 @@ Business Analysis:
         optimization
         process mapping
         uncovering insights
+    (- I think we should add basic web business services like websites, email marketing, and seo)
 
 Energy Consulting:
     - Develop a cost saving initiative (energy audit)
