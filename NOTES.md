@@ -10,20 +10,26 @@ I think we say $300/hr
 
 ### Who Does What
 We all do whatever we can to get this going asap, but I
-think we all curate and work together on finding the right services to offer and
-agree on the layout (JP will build the site)
-Perhaps Marc can design the adwords. *I don’t know how to implement adwords stuff but I could learn pretty quickly so am happy to do this and I think I still have the R600 of adwords that google is always offering me.* 
-
 Think of a useful cost and other ways of getting our name out there.
+think we all curate and work together on finding the right services to offer and 
+agree on the layout (JP will build the site).
+Perhaps Marc can design the adwords, think of a useful cost and other ways of getting our name out there.
+
+*I don’t know how to implement adwords stuff but I could learn pretty quickly so am happy to do this and I think I still
+have the R600 of adwords that google is always offering me.*
 Maybe there are tenders we can do. I have a corporation that we can use to bill.
 
-*I wonder if there is a non-government tender listing anywhere for bidding on work. Or maybe we list on freelancer.com or something? But I know those jobs don’t pay well so probably not a good idea.*
+*I wonder if there is a non-government tender listing anywhere for bidding on work. 
+Or maybe we list on freelancer.com or something? But I know those jobs don’t pay well so probably not a good idea.*
 
-*I also think that the way we’d probably get our first client is through a friend of a friend or some sort of network. I know that in general in any starting business “work comes from work” so getting the first client is the most important because it leads to referrals.*
+*I also think that the way we’d probably get our first client is through a friend of a friend or some sort of network. 
+I know that in general in any starting business “work comes from work” so getting the
+first client is the most important because it leads to referrals.*
 
 ### Things to be done
-Figure out how we bill (I guess it depends where our customers are)
-Find some templates/ strategies online for the output of the work done
+- Figure out how we bill (I guess it depends where our customers are).
+- Find some templates/ strategies online for the output of the work done.
+- Just find some clients (secure some contracts). 
 
 *I guess we have to really work out what percentage of the work done goes to the person doing the work and what goes to the company. I was putting 20% on top of the work for my company and it was never profitable at that margin, so probably a minimun of 25% of every bill should go to the company. Then tax should probably be assumed to be the highest bracket (or around 40% and structure from there?)*
 
@@ -42,7 +48,7 @@ Business Analysis:
         optimization
         process mapping
         uncovering insights
-    (- I think we should add basic web business services like websites, email marketing, and seo)
+    - (I think we should add basic web business services like websites, email marketing, and seo)
 
 Energy Consulting:
     - Develop a cost saving initiative (energy audit)
