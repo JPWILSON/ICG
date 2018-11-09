@@ -11,14 +11,15 @@ I think we say $300/hr
 ### Who Does What
 We all do whatever we can to get this going asap, but I
 think we all curate and work together on finding the right services to offer and
-agree on the layout (JP will build the site)
+agree on the layout (JP will build the site).
 Perhaps Marc can design the adwords, think of a useful cost and other ways of getting our name out there.
 Maybe there are tenders we can do. I have a corporation that we can use to bill.
 
 
 ### Things to be done
-Figure out how we bill (I guess it depends where our customers are)
-Find some templates/ strategies online for the output of the work done
+- Figure out how we bill (I guess it depends where our customers are).
+- Find some templates/ strategies online for the output of the work done.
+- Just find some clients (secure some contracts). 
 
 ### Services on offer:
 
@@ -31,7 +32,7 @@ Business Analysis:
         optimization
         process mapping
         uncovering insights
-    (- I think we should add basic web business services like websites, email marketing, and seo)
+    - (I think we should add basic web business services like websites, email marketing, and seo)
 
 Energy Consulting:
     - Develop a cost saving initiative (energy audit)
